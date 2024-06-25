@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sonar-scanner:
+    build:
+      context: .
+    networks:
+      - sonarnet
+
+networks:
+  sonarnet:
+    external: true

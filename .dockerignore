@@ -1,0 +1,5 @@
+sonar
+.dockerignore
+.gitignore
+venv
+.env
